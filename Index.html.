@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hastyar Hiwa's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hastyar Hiwa</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Welcome to My Personal Webpage</h2>
+            <p>Hello! My name is Hastyar Hiwa, and I am a medical student. This website serves as a personal platform where I share a bit about myself and how to get in touch with me.</p>
+        </section>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a medical student. Besides my studies, I am passionate about gaming, chess, swimming, technology, and physics.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>You can reach me at:</p>
+            <p>Email: <a href="mailto:hastyarhewa7@gmail.com">hastyarhewa7@gmail.com</a></p>
+            <p>Phone: <a href="tel:+9647506128136">+9647506128136</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Hastyar Hiwa</p>
+    </footer>
+</body>
+</html>
